@@ -1,0 +1,41 @@
+{
+  "name": "jsp-barcode",
+  "description": "Generate 1D and 2D barcodes",
+  "author": "Joel Schecheleski <joel.jsp@gmail.com>",
+  "keywords": [
+    "qr code",
+    "datamatrix",
+    "barcode",
+    "code39",
+    "code128",
+    "codabar",
+    "qr",
+    "code",
+    "upc",
+    "upc-a",
+    "upc-e"
+  ],
+  "bugs": {
+    "url": "https://github.com/JoelSchecheleski/js-barcode/issues"
+  },
+  "version": "0.1.0",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoelSchecheleski/js-barcode/barcode.git"
+  },
+  "dependencies": {
+    "gm": "1.25.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "ISC"
+}
